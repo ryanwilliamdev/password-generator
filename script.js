@@ -97,3 +97,14 @@ const characters = [
 ];
 
 
+let passwordOne = document.querySelector("#password-one-el");
+let passwordTwo = document.querySelector("#password-two-el");
+let charLength = 15;
+function generatePassword() {
+  for (let i = 0; i < charLength; i++) {
+    let randomPasswordOne = characters[Math.floor(Math.random()*characters.length)];
+    let randomPasswordTwo = characters[Math.floor(Math.random()*characters.length)];
+    passwordOne.textContent += randomPasswordOne;
+    passwordTwo.textContent += randomPasswordTwo;
+  }
+}

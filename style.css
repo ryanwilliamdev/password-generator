@@ -21,9 +21,9 @@ body {
     justify-content: start;
     align-items: start;
     background: #1f2937;
-    margin: auto;
-    width: 800px;
-    height: 600px;
+    margin: 50px auto 0;
+    width: 700px;
+    height: 500px;
 }
 
 .header-text {
@@ -51,6 +51,7 @@ body {
 .generator-btn {
     background: #10b981;
     color: white;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     margin: 40px 0 0 50px;
@@ -58,9 +59,30 @@ body {
 }
 
 hr {
-    width: 700px;
-    margin: 50px auto;
+    width: 600px;
+    margin: 50px auto 0;
     border: 1px solid #273549;
 }
+
+.password-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.password-div {
+    background: #273549;
+    color: #55f991;
+    margin: 0 10px;
+    width: 200px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#password-one-el {
+    margin-right: 40px;
+}
+
 
 

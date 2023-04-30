@@ -101,6 +101,8 @@ let passwordTwo = document.querySelector("#password-two-el");
 let charLength = 15;
 
 function generatePassword() {
+  passwordOne.textContent = "";
+  passwordTwo.textContent = "";
   for (let i = 0; i < charLength; i++) {
     let randomPasswordOne =
       characters[Math.floor(Math.random() * characters.length)];
